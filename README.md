@@ -38,13 +38,13 @@ MyTodoApi/
 - Ensure dependencies are restored.
 - Click the "Run" button or press `F5` to start the application.
 
-The API should now be running at: [https://localhost:5001](https://localhost:5001)
+The API should now be running at: [https://localhost:7195](https://localhost:7195/swagger/index.html)
 
 ## 📊 Testing the API
 
 You can interact with the API using **Swagger** or **Postman**:
 
-Swagger UI: [https://localhost:5001/swagger](https://localhost:5001/swagger)
+Swagger UI: [https://localhost:7195](https://localhost:7195/swagger/index.html)
 
 ### 📌 Endpoints Overview
 
@@ -93,10 +93,13 @@ Swagger UI: [https://localhost:5001/swagger](https://localhost:5001/swagger)
   Request Body:
   ```json
   {
-    "name": "Buy groceries",
-    "priority": 1,
-    "isCompleted": false,
-    "dueDate": "2023-12-31"
+    "id": 0,
+    "category": "string",
+    "name": "string",
+    "description": "string",
+    "priority": 0,
+    "dueDate": "2025-03-23",
+    "isCompleted": true
   }
   ```
 
